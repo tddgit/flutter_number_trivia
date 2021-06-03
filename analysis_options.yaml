@@ -52,7 +52,6 @@ analyzer:
     empty_constructor_bodies: warning
     exhaustive_cases: error
     file_names: error
-
     implementation_imports: error
     join_return_with_assignment: warning
     library_names: error
@@ -83,7 +82,6 @@ analyzer:
     prefer_if_elements_to_conditional_expressions: warning
     prefer_typing_uninitialized_variables: warning
     provide_deprecation_message: error
-
     recursive_getters: error
     sized_box_for_whitespace: error
     type_annotate_public_apis: error
