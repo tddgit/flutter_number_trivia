@@ -9,7 +9,7 @@ class NumberTrivia extends Equatable {
     return NumberTrivia(
         text: json['text'] as String, number: (json['number'] as num).toInt());
   }
-  
+
   final String text;
   final int number;
 
@@ -23,5 +23,5 @@ class NumberTrivia extends Equatable {
   }
 
   @override
-  List<Object?> get props => <Object?>[text, number];
+  List<Object?> get props => <Object?>[];
 }

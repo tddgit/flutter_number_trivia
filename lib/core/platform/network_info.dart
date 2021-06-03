@@ -4,4 +4,9 @@ abstract class NetworkInfo {
   Future<NumberTrivia> getConcreteNumberTrivia(int number);
 
   Future<NumberTrivia> getRandomNumberTrivia();
+
+  Future<bool> get isConnected async {
+    //TODO: implement
+    return true;
+  }
 }

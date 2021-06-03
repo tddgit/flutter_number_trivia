@@ -28,5 +28,5 @@ class Params extends Equatable {
   final int number;
 
   @override
-  List<Object?> get props => <Object?>[number];
+  List<Object?> get props => <Object?>[];
 }
